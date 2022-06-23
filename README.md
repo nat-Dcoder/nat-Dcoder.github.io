@@ -1,2 +1,3 @@
 # super-demo
-Github practice demo
+
+Github coding practice session
