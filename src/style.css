@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+canvas{
+    background-color: black;
+    background-image: url('/BG.png');
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+    background-size: contain;
+}
+button{
+    border-radius:50%;
+    background-color: green;
+    margin: 20px;
+    padding: 10px;
+}
+#up{
+    position: absolute;
+    top:450px;
+    left: 203px;
+    margin-top: 10px;
+}
+
+#down{
+    position: absolute;
+    top:570px;
+    left: 203px;
+}
+#right{
+    position: absolute;
+    top:500px;
+    right: 40px;
+}
+#left{
+    position: absolute;
+    top:500px;
+    left: 160px;
+}
